@@ -17,10 +17,10 @@ Find and print the respective total healths of the unhealthiest (minimum total h
 
 ### Input Format
 
-- The first line contains an integer,*n* , denoting the total number of genes.
+- The first line contains an integer,*n*, denoting the total number of genes.
 - The second line contains *n* space-separated strings describing the respective values of *g<sub>0</sub>, g<sub>1</sub>,...,g<sub>n-1</sub>* (i.e., the elements of ).
 - The third line contains *n* space-separated integers describing the respective values of *h<sub>0</sub>, h<sub>1</sub>,...,h<sub>n-1</sub>* (i.e., the elements of ).
-- The fourth line contains an integer,*s* , denoting the number of strands of DNA to process.
+- The fourth line contains an integer, *s* , denoting the number of strands of DNA to process.
 - Each of the *s* subsequent lines describes a DNA strand in the form start end d, denoting that the healthy genes for DNA strand *d* are *g<sub>start</sub>,...,g<sub>end</sub>* and their respective correlated health values are *h<sub>start</sub>,...,h<sub>end</sub>*.
 
 ### Output Format
