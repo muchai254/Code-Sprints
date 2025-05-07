@@ -1,5 +1,5 @@
 #include <stdio.h>
 
-int sum_two(int a, int b) {
-    // Write your code here
+int sumTwoNumbers(int a, int b) {
+    return a + b;
 }
