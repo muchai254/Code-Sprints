@@ -1,7 +1,9 @@
-name: Validate Solutions
+name: Update team points
 
 on:
-  pull_request:
+  push:
+    branches:
+      - main
     paths:
       - "problems/**"
 
@@ -155,35 +157,51 @@ jobs:
             fi
           done
 
-      - name: Post test result as a PR comment
-        if: always()
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const prNumber = context.payload.pull_request.number;
+      - name: Determine Points
+        id: points
+        run: |
+          POINTS=0
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [[ "$file" == problems/easy/* ]]; then
+              POINTS=$((POINTS + 10))
+            elif [[ "$file" == problems/intermediate/* ]]; then
+              POINTS=$((POINTS + 20))
+            elif [[ "$file" == problems/hard/* ]]; then
+              POINTS=$((POINTS + 30))
+            fi
+          done
+          echo "POINTS=$POINTS" >> $GITHUB_ENV
 
-            // Collect outcomes of all the test steps
-            const results = [
-              '${{ steps.test_python.outcome || 'skipped' }}',
-              '${{ steps.test_js.outcome || 'skipped' }}',
-              '${{ steps.test_java.outcome || 'skipped' }}',
-              '${{ steps.test_cpp.outcome || 'skipped' }}',
-              '${{ steps.test_c.outcome || 'skipped' }}'
-            ];
+      - name: Append to team_points.md
+        run: |
+          AUTHOR=$(git log -1 --pretty=format:'%an')
+          DATE=$(date +'%Y-%m-%d %H:%M:%S')
 
-            // Check if all tests passed (either success or skipped)
-            const allPassed = results.every(r => r === 'success' || r === 'skipped');
+          # Get the first changed file in the last commit
+          CHANGED_FILE=$(git diff --name-only HEAD~1 HEAD | head -n 1)
+          CHALLENGE_NAME=$(basename "$CHANGED_FILE")
 
-            let body;
-            if (allPassed) {
-              body = '✅ **All test cases have passed, please merge your code to get points.**';
-            } else {
-              body = '❌ **Some tests have failed, please try again.**';
-            }
+          # If no file is found (e.g., empty commit), fallback
+          if [ -z "$CHALLENGE_NAME" ]; then
+            CHALLENGE_NAME="Unknown Challenge"
+          fi
 
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: prNumber,
-              body
-            });
+          # Append points and challenge to the markdown file
+          {
+            echo "### $AUTHOR - $DATE"
+            echo "| **Challenge** | **$CHALLENGE_NAME** |"
+            echo "| **Total Points** | **$POINTS** |"
+            echo ""
+          } >> team_points.md
+
+      - name: Commit team points update
+        env:
+          G/H_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
+          git add team_points.md
+          git commit -m "Update team points for $AUTHOR (POINTS=$POINTS)" || echo "No changes to commit"
+          git push || echo "Nothing to push"
