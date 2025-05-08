@@ -26,11 +26,11 @@ Whether you're a **beginner looking to grow** or an **experienced coder wanting 
 
 You’ll tackle a variety of **problem-solving challenges** divided into 3 difficulty levels:
 
-| 💪 Difficulty     | 🎯 Marks Awarded |
-|-------------------|------------------|
-| 🟢 Easy           | 10 points        |
-| 🟡 Intermediate   | 20 points        |
-| 🔴 Hard           | 30 points        |
+| 💪 Difficulty   | 🎯 Marks Awarded |
+| --------------- | ---------------- |
+| 🟢 Easy         | 10 points        |
+| 🟡 Intermediate | 20 points        |
+| 🔴 Hard         | 30 points        |
 
 🎯 **Goal:** Earn as many points as possible by solving challenges and submitting your solutions before the deadline.
 
@@ -38,19 +38,19 @@ You’ll tackle a variety of **problem-solving challenges** divided into 3 diffi
 
 ## 🗂️ List of Challenges
 
-| 🏷️ **Challenge Title**                                                              | ⚡ **Difficulty** |
-|-------------------------------------------------------------------------------------|------------------|
-| [Angry Professor](./problems/easy/angry_professor)                                  | 🟢 Easy           |
-| [Grading Students](./problems/easy/grading_students)                                | 🟢 Easy           |
-| [Day of the Programmer](./problems/easy/programmer_day)                             | 🟢 Easy           |
-| [Sum Two Numbers](./problems/easy/sum_two)                                          | 🟢 Easy           |
-| [Climbing Leaderboard](./problems/intermediate/climbing_leaderboard)                | 🟡 Intermediate   |
-| [Ema's Supercomputer](./problems/intermediate/ema_supercomputer)                    | 🟡 Intermediate   |
-| [Organizing Balls in a Container](./problems/intermediate/organizing_container)     | 🟡 Intermediate   |
-| [Build a String](./problems/hard/build_a_string)                                    | 🔴 Hard           |
-| [Morgan and String](./problems/hard/morgan_and_string)                              | 🔴 Hard           |
-| <!-- Add more challenges here -->                                                   |                  |
-
+| 🏷️ **Challenge Title**                                                          | ⚡ **Difficulty** |
+| ------------------------------------------------------------------------------- | ----------------- |
+| [Angry Professor](./problems/easy/angry_professor)                              | 🟢 Easy           |
+| [Grading Students](./problems/easy/grading_students)                            | 🟢 Easy           |
+| [Day of the Programmer](./problems/easy/programmer_day)                         | 🟢 Easy           |
+| [Sum Two Numbers](./problems/easy/sum_two)                                      | 🟢 Easy           |
+| [Climbing Leaderboard](./problems/intermediate/climbing_leaderboard)            | 🟡 Intermediate   |
+| [Ema's Supercomputer](./problems/intermediate/ema_supercomputer)                | 🟡 Intermediate   |
+| [Organizing Balls in a Container](./problems/intermediate/organizing_container) | 🟡 Intermediate   |
+| [Build a String](./problems/hard/build_a_string)                                | 🔴 Hard           |
+| [Morgan and String](./problems/hard/morgan_and_string)                          | 🔴 Hard           |
+| [Bear and steady gene](./problems/hard/bear_and_gene)                           | 🔴 Hard           |
+| <!-- Add more challenges here -->                                               |                   |
 
 ---
 
@@ -115,15 +115,13 @@ In the PR description, mention:
 
 ✅ Once reviewed, your PR will be merged to main, and your points will be logged automatically.
 
-
-
 ## 📜 Rules
 
 - 🚫 Minimum use of AI tools:
-We encourage you to think independently. While AI (like ChatGPT/Copilot) can assist, do not copy-paste solutions blindly—points may be revoked if violations are found.
+  We encourage you to think independently. While AI (like ChatGPT/Copilot) can assist, do not copy-paste solutions blindly—points may be revoked if violations are found.
 
 - 🕓 Deadline:
-All challenge solutions must be submitted by 4:00 PM. ⏰ Late submissions will not be accepted.
+  All challenge solutions must be submitted by 4:00 PM. ⏰ Late submissions will not be accepted.
 
 - 🤝 Be respectful & fair:
 
@@ -132,7 +130,7 @@ All challenge solutions must be submitted by 4:00 PM. ⏰ Late submissions will 
 - Help others, but don't give away full solutions.
 
 - 👩‍💻 Test Coverage:
-Your solution must pass all test cases provided in each challenge folder.
+  Your solution must pass all test cases provided in each challenge folder.
 
 ## 🏆 How to Win
 
