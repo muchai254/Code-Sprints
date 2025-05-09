@@ -49,7 +49,16 @@ You’ll tackle a variety of **problem-solving challenges** divided into 3 diffi
 | [Organizing Balls in a Container](./problems/intermediate/organizing_container)     | 🟡 Intermediate   |
 | [Build a String](./problems/hard/build_a_string)                                    | 🔴 Hard           |
 | [Morgan and String](./problems/hard/morgan_and_string)                              | 🔴 Hard           |
-| <!-- Add more challenges here -->                                                   |                  |
+| [Discounts](./problems/easy/discount/)                                              | 🟢 Easy           |
+| [Savings](./problems/easy/savings/)                                                 | 🟢 Easy           |
+| [Vowels](./problems//easy/vowels/)                                                  | 🟢 Easy           |
+| [Tax](./problems//easy/tax_error/)                                                  | 🟢 Easy           |
+| [Escape room](./problems/intermediate/escape_room/)                                 | 🟡 Intermediate   |
+| [Power Ranger](./problems/intermediate/power_ranger/)                               | 🟡 Intermediate   |
+| [The secrete Agent](./problems/intermediate/secret_agent/)                          | 🟡 Intermediate   |
+| [Password Leak](./problems/hard/password_Leak/)                                     | 🔴 Hard           |
+| [Grid Cleaner](./problems/hard/Grid_Cleaner/)                                       | 🔴 Hard           |
+<!-- Add more challenges here -->                                                   |                  |
 
 
 ---
