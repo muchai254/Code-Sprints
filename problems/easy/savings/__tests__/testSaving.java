@@ -1,4 +1,4 @@
-package problems.easy.savings._tests_;
+package problems.easy.savings.__tests__;
 
 import problems.easy.savings.savings;
 public class testSaving {

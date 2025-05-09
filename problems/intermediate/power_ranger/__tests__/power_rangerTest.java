@@ -1,4 +1,4 @@
-package problems.intermediate.power_ranger._tests_;
+package problems.intermediate.power_ranger.__tests__;
 
 import problems.intermediate.power_ranger.power_ranger;;;
 public class power_rangerTest {

@@ -1,4 +1,4 @@
-package problems.hard.password_Leak._tests_;
+package problems.hard.password_Leak.__tests__;
 
 import java.util.List;
 

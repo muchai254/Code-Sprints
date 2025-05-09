@@ -1,4 +1,4 @@
-import {calculateTax} from "../../tax_error/tax_error"
+import {calculateTax} from "../tax_error"
 
 const tests = [10000,0,-500];
 const expected = [1500,0,0];

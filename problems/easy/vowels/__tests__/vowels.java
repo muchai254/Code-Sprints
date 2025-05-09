@@ -1,4 +1,4 @@
-package problems.easy.vowels._tests_;
+package problems.easy.vowels.__tests__;
 
 
 import problems.easy.vowels.count_vowels;

@@ -1,4 +1,4 @@
-package problems.easy.discount._tests_;
+package problems.easy.discount.__tests__;
 
 import problems.easy.discount.discount;
 public class discountTest {

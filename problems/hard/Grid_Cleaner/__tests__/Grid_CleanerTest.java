@@ -1,4 +1,4 @@
-package problems.hard.Grid_Cleaner._tests_;
+package problems.hard.Grid_Cleaner.__tests__;
 
 import problems.hard.Grid_Cleaner.Grid_Cleaner;;;
 

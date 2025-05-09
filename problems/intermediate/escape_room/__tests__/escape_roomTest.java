@@ -1,4 +1,4 @@
-package problems.intermediate.escape_room._tests_;
+package problems.intermediate.escape_room.__tests__;
 
 import problems.intermediate.escape_room.escape_room;;;
 public class escape_roomTest {

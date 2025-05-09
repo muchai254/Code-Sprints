@@ -1,4 +1,4 @@
-package problems.easy.tax_error._tests_;
+package problems.easy.tax_error.__tests__;
 import problems.easy.tax_error.TaxCalculator;
 public class TaxCalculatorTest {
     public static void main(String[] args) {

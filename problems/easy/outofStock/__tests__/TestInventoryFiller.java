@@ -1,4 +1,4 @@
-package problems.easy.outofStock._tests_;
+package problems.easy.outofStock.__tests__;
 
 import problems.easy.outofStock.InventoryFiller;
 import java.util.*;

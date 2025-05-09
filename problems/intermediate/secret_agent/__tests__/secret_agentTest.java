@@ -1,4 +1,4 @@
-package problems.intermediate.secret_agent._tests_;
+package problems.intermediate.secret_agent.__tests__;
 
 import problems.intermediate.secret_agent.secret_agent;
 
