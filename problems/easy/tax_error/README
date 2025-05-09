@@ -1,0 +1,6 @@
+🧮 Challenge 1: Broken Tax Calculator
+Scenario:
+You're maintaining a finance dashboard that calculates tax from income. A user reports that the app always returns 0.
+
+Task:
+Fix the function so it returns the correct tax, and handles invalid income properly.

@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/problems/easy",
+                "${workspaceFolder}/problems/easy/tax_error/_tests_",
+                "${workspaceFolder}/problems/easy/tax_error",
+                "${workspaceFolder}"
+            ],
+            "compilerPath": "gcc",
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,19 @@
+🔍 Problem Statement: Digital Lock Puzzle System
+Scenario:
+
+You are developing the logic for a security system in an escape room. The room features a digital lock that requires a special 3-digit number to unlock. The twist: the number must be a Disarium number—a number where the sum of its digits raised to the power of their respective positions equals the number itself.
+
+For example, 135 is a Disarium number because:
+1¹ + 3² + 5³ = 1 + 9 + 125 = 135
+
+To add to the challenge, players find a keypad and a hint:
+
+"The number unlocks only when it respects the power of its own parts."
+
+Your task is to validate the number entered by the players and determine whether it’s a Disarium number, unlocking the door if it is.
+
+📥 Input:
+An integer n, the number entered into the digital keypad.
+
+📤 Output:
+A boolean: true if the number is a Disarium number, false otherwise.
