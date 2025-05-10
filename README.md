@@ -26,17 +26,18 @@ Whether you're a **beginner looking to grow** or an **experienced coder wanting 
 
 You’ll tackle a variety of **problem-solving challenges** divided into 3 difficulty levels:
 
-| 💪 Difficulty     | 🎯 Marks Awarded |
-|-------------------|------------------|
-| 🟢 Easy           | 10 points        |
-| 🟡 Intermediate   | 20 points        |
-| 🔴 Hard           | 30 points        |
+| 💪 Difficulty   | 🎯 Marks Awarded |
+| --------------- | ---------------- |
+| 🟢 Easy         | 10 points        |
+| 🟡 Intermediate | 20 points        |
+| 🔴 Hard         | 30 points        |
 
 🎯 **Goal:** Earn as many points as possible by solving challenges and submitting your solutions before the deadline.
 
 ---
 
 ## 🗂️ List of Challenges
+
 
 | 🏷️ **Challenge Title**                                                              | ⚡ **Difficulty** |
 |-------------------------------------------------------------------------------------|------------------|
@@ -49,7 +50,6 @@ You’ll tackle a variety of **problem-solving challenges** divided into 3 diffi
 | [Organizing Balls in a Container](./problems/intermediate/organizing_container)     | 🟡 Intermediate   |
 | [Build a String](./problems/hard/build_a_string)                                    | 🔴 Hard           |
 | [Morgan and String](./problems/hard/morgan_and_string)                              | 🔴 Hard           |
-| <!-- Add more challenges here -->                                                   |                   |
 | [Discounts](./problems/easy/discount/)                                              | 🟢 Easy           |
 | [Savings](./problems/easy/savings/)                                                 | 🟢 Easy           |
 | [Vowels](./problems//easy/vowels/)                                                  | 🟢 Easy           |
@@ -59,8 +59,7 @@ You’ll tackle a variety of **problem-solving challenges** divided into 3 diffi
 | [The secrete Agent](./problems/intermediate/secret_agent/)                          | 🟡 Intermediate   |
 | [Password Leak](./problems/hard/password_Leak/)                                     | 🔴 Hard           |
 | [Grid Cleaner](./problems/hard/Grid_Cleaner/)                                       | 🔴 Hard           |
-
-
+| <!-- Add more challenges here -->                                               |                   |
 
 ---
 
@@ -125,15 +124,13 @@ In the PR description, mention:
 
 ✅ Once reviewed, your PR will be merged to main, and your points will be logged automatically.
 
-
-
 ## 📜 Rules
 
 - 🚫 Minimum use of AI tools:
-We encourage you to think independently. While AI (like ChatGPT/Copilot) can assist, do not copy-paste solutions blindly—points may be revoked if violations are found.
+  We encourage you to think independently. While AI (like ChatGPT/Copilot) can assist, do not copy-paste solutions blindly—points may be revoked if violations are found.
 
 - 🕓 Deadline:
-All challenge solutions must be submitted by 4:00 PM. ⏰ Late submissions will not be accepted.
+  All challenge solutions must be submitted by 4:00 PM. ⏰ Late submissions will not be accepted.
 
 - 🤝 Be respectful & fair:
 
@@ -142,7 +139,7 @@ All challenge solutions must be submitted by 4:00 PM. ⏰ Late submissions will 
 - Help others, but don't give away full solutions.
 
 - 👩‍💻 Test Coverage:
-Your solution must pass all test cases provided in each challenge folder.
+  Your solution must pass all test cases provided in each challenge folder.
 
 ## 🏆 How to Win
 
