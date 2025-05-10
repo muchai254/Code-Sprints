@@ -30,9 +30,4 @@ int buildString(int a, int b, const string &s) {
     return dp[n];
 }
 
-int main() {
-    int a = 4, b = 5;
-    string s = "aabaacaba";
-    cout << buildString(a, b, s) << endl;
-    return 0;
-}
+
