@@ -3,12 +3,15 @@ using namespace std;
 
 double calculateTax(double income) {
     if (income < 0) {
-        return "Income can't be negative"; 
+        return 0; 
+    } 
+    if (income == 0) {
+        return 0;
     }
     double taxRate = 0.15;
-    double tax = 0;
-    income * taxRate; 
-    return tax;
+    
+    return income * taxRate; 
+   
 }
 
 int main() {
