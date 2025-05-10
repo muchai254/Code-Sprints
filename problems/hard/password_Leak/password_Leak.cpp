@@ -40,7 +40,7 @@ std::vector<int> find_anagrams(const std::string& s, const std::string& p) {
             left++;
         }
 
-        // Expand the window to the right
+        
         right++;
     }
 
