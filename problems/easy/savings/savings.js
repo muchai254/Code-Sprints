@@ -1,6 +1,5 @@
 function count_savings(num) {
-    // write your code here
-    return 0;
-};
+    return (num * (num + 1)) / 2;
+}
 
-module.export = count_savings();
+module.exports = count_savings;

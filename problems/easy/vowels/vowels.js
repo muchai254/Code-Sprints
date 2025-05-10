@@ -11,5 +11,6 @@ function getvowels(word) {
     return vowels;
   }
   console.log(getvowels("Celebration"));
+  
   module.exports = getvowels;
   
