@@ -1,4 +1,8 @@
+#include <vector>
 #include <string>
+#include <algorithm>
+#include <iostream>
+
 using namespace std;
 
 /**
@@ -10,6 +14,25 @@ using namespace std;
  * @return Minimum cost to build the string.
  */
 int buildString(int a, int b, const string &s) {
-    // Write your code here
+    int n = s.size();
+    vector<int> dp(n + 1, 0); 
+
+    for (int i = 1; i <= n; ++i) {
+        dp[i] = dp[i - 1] + a;
+
+        for (int len = 1; len <= i / 2; ++len) {
+            if (s.substr(i - len, len) == s.substr(i - 2 * len, len)) {
+                dp[i] = min(dp[i], dp[i - len] + b);
+            }
+        }
+    }
+
+    return dp[n];
+}
+
+int main() {
+    int a = 4, b = 5;
+    string s = "aabaacaba";
+    cout << buildString(a, b, s) << endl;
     return 0;
 }
