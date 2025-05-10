@@ -1,10 +1,13 @@
-name: CI
+name: Validate blockchain
 
 on:
   push:
     branches:
       - main
     paths:
+      - "problems/easy/crowdfunding"
+  pull_request:
+     paths:
       - "problems/easy/crowdfunding"
 
 env:
