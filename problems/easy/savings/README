@@ -1,0 +1,20 @@
+💰 Problem Statement: Cumulative Savings Tracker
+Scenario:
+
+You’re designing a financial planning tool for students to build better saving habits. One feature encourages users to increase their savings daily in small amounts. The plan is simple: on Day 1, they save 1 unit of money (e.g., dollar, shilling, euro), on Day 2 they save 2 units, and so on, increasing by 1 unit each day.
+
+Your task is to calculate the total amount saved after n days, assuming the student sticks to the plan.
+
+📥 Input:
+An integer n, the number of days the student has been saving.
+
+📤 Output:
+An integer representing the total savings after n days.
+
+🧪 Example:
+
+totalSavings(4); // Output: 10 => 1 + 2 + 3 + 4
+totalSavings(7); // Output: 28 => 1 + 2 + 3 + 4 + 5 + 6 + 7
+✏️ Your Task:
+Write a function totalSavings(n: number): number that returns the total savings after n days.
+

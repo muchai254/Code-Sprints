@@ -1,0 +1,6 @@
+📦 Challenge 2: Inventory Filter Gone Wrong
+Scenario:
+You're working on an e-commerce platform. A function that filters products by category always returns an empty list—even when valid products exist.
+
+Task:
+Identify and fix the issue so the function filters correctly.
