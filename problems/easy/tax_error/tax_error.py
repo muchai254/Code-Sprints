@@ -3,7 +3,7 @@ def calculate_tax(income):
         return "Income can't be negative" 
     tax_rate = 0.15
     tax = 0
-    income * tax_rate  
-    return tax
+    return income * tax_rate  
+    
 
 print(calculate_tax(10000)) 
