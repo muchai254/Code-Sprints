@@ -26,7 +26,5 @@ contract TokenVesting {
 
     function _calculateVestedAmount() private view returns (uint256) {}
 
-    function getClaimableAmount() public view returns (uint256) {
-\
-    }
+    function getClaimableAmount() public view returns (uint256) {}
 }
