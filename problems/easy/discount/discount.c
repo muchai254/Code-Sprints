@@ -14,7 +14,7 @@ int main(){
     scanf("%f", &percentage);
 
     finalPrice = cal_discount(price, percentage);
-    printf("The discounted price is: %.2f\n", finalPrice);
+    printf("The discounted price is  %.2f\n", finalPrice);
 
     return 0;
 }
