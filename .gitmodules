@@ -1,0 +1,3 @@
+[submodule "problems/easy/crowdfunding/lib/forge-std"]
+	path = problems/easy/crowdfunding/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
