@@ -45,18 +45,18 @@ You’ll tackle a variety of **problem-solving challenges** divided into 3 diffi
 | [Grading Students](./problems/easy/grading_students)                                | 🟢 Easy           |
 | [Day of the Programmer](./problems/easy/programmer_day)                             | 🟢 Easy           |
 | [Sum Two Numbers](./problems/easy/sum_two)                                          | 🟢 Easy           |
-| [Climbing Leaderboard](./problems/intermediate/climbing_leaderboard)                | 🟡 Intermediate   |
-| [Ema's Supercomputer](./problems/intermediate/ema_supercomputer)                    | 🟡 Intermediate   |
-| [Organizing Balls in a Container](./problems/intermediate/organizing_container)     | 🟡 Intermediate   |
-| [Build a String](./problems/hard/build_a_string)                                    | 🔴 Hard           |
-| [Morgan and String](./problems/hard/morgan_and_string)                              | 🔴 Hard           |
 | [Discounts](./problems/easy/discount/)                                              | 🟢 Easy           |
 | [Savings](./problems/easy/savings/)                                                 | 🟢 Easy           |
 | [Vowels](./problems//easy/vowels/)                                                  | 🟢 Easy           |
 | [Tax](./problems//easy/tax_error/)                                                  | 🟢 Easy           |
+| [Climbing Leaderboard](./problems/intermediate/climbing_leaderboard)                | 🟡 Intermediate   |
+| [Ema's Supercomputer](./problems/intermediate/ema_supercomputer)                    | 🟡 Intermediate   |
+| [Organizing Balls in a Container](./problems/intermediate/organizing_container)     | 🟡 Intermediate   |
 | [Escape room](./problems/intermediate/escape_room/)                                 | 🟡 Intermediate   |
 | [Power Ranger](./problems/intermediate/power_ranger/)                               | 🟡 Intermediate   |
 | [The secrete Agent](./problems/intermediate/secret_agent/)                          | 🟡 Intermediate   |
+| [Build a String](./problems/hard/build_a_string)                                    | 🔴 Hard           |
+| [Morgan and String](./problems/hard/morgan_and_string)                              | 🔴 Hard           |
 | [Password Leak](./problems/hard/password_Leak/)                                     | 🔴 Hard           |
 | [Grid Cleaner](./problems/hard/Grid_Cleaner/)                                       | 🔴 Hard           |
 | <!-- Add more challenges here -->                                               |                   |
