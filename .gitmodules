@@ -1,3 +1,12 @@
 [submodule "problems/easy/crowdfunding/lib/forge-std"]
 	path = problems/easy/crowdfunding/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "problems/easy/timeLock/lib/forge-std"]
+	path = problems/easy/timeLock/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "problems/intermediate/TokenVesting/lib/forge-std"]
+	path = problems/intermediate/TokenVesting/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "problems/hard/Multisig/lib/forge-std"]
+	path = problems/hard/Multisig/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
